@@ -1,0 +1,26 @@
+body {
+    background-color: #FFF8E7; /* Creme */
+    color: #3D2352; /* Violeta escuro */
+    font-family: "Georgia", serif;
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+h1 {
+    color: #6A0DAD; /* Violeta */
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #D8C3F5;
+    padding-bottom: 10px;
+}
+
+p {
+    background-color: #FFFDF7;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #6A0DAD;
+    border-radius: 4px;
+}
