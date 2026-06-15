@@ -1,4 +1,12 @@
-<h1>{{title() }}</h1>
-
-<p>Bem-vindo ao meu portifólio - em contrução com Angular!</p>
-<p>Esse projeto pertence a Sofia Roloff, e nesse projeto pretendo explorar mais as utilidades de CSS e de SPA(Single Page Aplication)</p>
+<mat-toolbar color="primary">
+    <span>Meu Portifólio</span>
+    <span class="espacador"></span>
+    <a mat-button routerLink="/" routerLinkActive="ativo" [routerLinkActiveOptions]="{ exact: true }">início</a>
+    <a mat-button routerLink="/sobre" routerLinkActive="ativo">Sobre</a>
+    <a mat-button routerLink="/projetos" routerLinkActive="ativo">Projetos</a>
+    <a mat-button routerLink="/contato" routerLinkActive="ativo">Contato</a>
+</mat-toolbar>
+ 
+<main style="padding: 24px;">
+    <router-outlet></router-outlet>
+</main>
